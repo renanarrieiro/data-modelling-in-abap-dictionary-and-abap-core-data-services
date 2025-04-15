@@ -1,0 +1,15 @@
+@Metadata.layer: #CORE
+annotate view ZRACP_C_EMPLOYEE_QUERY with
+  parameters
+    @EndUserText.label: 'Currency of evaluation'
+    p_target_curr,
+    @EndUserText.label: 'Date of evaluation'
+    p_date
+{
+  @EndUserText.label: 'Employee Role'
+  EmployeeRole;
+  @EndUserText.label: 'Annual Salary'
+  AnnualSalaryConverted;
+  @EndUserText.label: 'Monthly Salary'
+  MonthlySalaryConverted;
+}

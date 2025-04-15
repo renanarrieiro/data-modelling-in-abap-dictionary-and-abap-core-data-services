@@ -1,0 +1,9 @@
+@Metadata.layer: #CUSTOMER
+annotate view ZRACP_C_EMPLOYEE_QUERY with
+  parameters
+    @EndUserText.label: 'Date of Metadata'
+    p_date
+{
+  @EndUserText.label: 'Department Assistant'
+  AssistantName;
+}
